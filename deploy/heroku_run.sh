@@ -12,6 +12,10 @@ export DJANGO_DB='sqlite'
 
 ./deploy/docker-entrypoint.sh label-studio \
   --host ${HOST:-""} \
-  --port ${PORT} \
-  --username ${USERNAME} \
-  --password ${PASSWORD}
+  --port 8000 \
+  --username test \
+  --password test
+  # --host ${HOST:-""} \
+  # --port ${PORT} \
+  # --username ${USERNAME} \
+  # --password ${PASSWORD}
