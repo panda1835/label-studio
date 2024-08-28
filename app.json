@@ -10,7 +10,12 @@
   "logo": "https://labelstud.io/images/opossum/heartex_icon_opossum_green.svg",
   "stack": "container",
   "addons": [
-    
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "16"
+	    }
+	  }
   ],
   "env": {
     "DISABLE_SIGNUP_WITHOUT_LINK": {
